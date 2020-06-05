@@ -28,4 +28,8 @@ ActiveRecord::Schema.define(version: 20200605004149) do
     t.integer "figure_id"
   end
 
+  create_table "titles", force: :cascade do |t|
+    t.string "name"
+  end
+
 end
